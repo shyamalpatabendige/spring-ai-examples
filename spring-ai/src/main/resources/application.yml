@@ -1,0 +1,17 @@
+spring:
+  ai:
+    openai:
+      api-key: {OPEN-AI-TOKEN}
+      chat:
+        model: 'gpt-3.5-turbo'
+        temperature: 0.7
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,metrics,mappings
+  health:
+    show-details: always
+chat:
+  promptTemplate: Tell me a joke about {subject}. {format}
