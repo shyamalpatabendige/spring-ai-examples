@@ -1,4 +1,4 @@
-package com.shyamalmadura.spring.ai.application.service;
+package com.shyamalmadura.spring.ai.service;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.ai.chat.ChatClient;

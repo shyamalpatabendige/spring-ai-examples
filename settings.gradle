@@ -1,3 +1,5 @@
 rootProject.name = 'spring-ai-examples'
 
 include 'spring-ai'
+include 'spring-ai-sql'
+
